@@ -1,0 +1,243 @@
+t/css">
+    @keyframes lazyload {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes lazyload {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes lazyload {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes lazyload {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      height: 0px;
+      width: 15px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #171717;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #222222;
+    }
+
+    body {
+      font-family: 'Overpass', sans-serif;
+      font-size: 13px;
+      color: #ffffff;
+      background-color: #0b0b0b;
+      line-height: 160%;
+      letter-spacing: 0.2px;
+      word-wrap: break-word;
+      -webkit-animation: lazyload 2s;
+      -moz-animation: lazyload 2s;
+      -o-animation: lazyload 2s;
+      animation: lazyload 2s;
+    }
+
+    a {
+      color: #fff;
+      /*links*/
+      text-decoration: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    h1 {
+      font-weight: bold;
+      color: #e00000;
+      font-size: 14px;
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: .25em;
+    }
+
+    .button {
+      background: #0b0b0b;
+      border: 0;
+      border-radius: 1px;
+      outline: 0;
+      padding: 0;
+      display: block;
+      cursor: help;
+      text-shadow: none;
+      box-shadow: none;
+      line-height: inherit;
+      color: #fff;
+      font-size: inherit;
+      font-family: inherit;
+      letter-spacing: inherit;
+      margin-right: 10px;
+    }
+
+    .button:hover {
+      color: #171717;
+    }
+
+    .button:active,
+    .button.is-checked {
+      color: #999494;
+    }
+
+    .button-group:last-of-type {
+      border: none;
+    }
+
+    .button-group:first-of-type {
+      margin-top: 20px;
+    }
+
+    article {
+      position: relative;
+      width: 260px;
+      margin: 20px;
+      margin-top: 0px;
+      box-sizing: border-box;
+      padding: 15px;
+      border: 1px solid #171717;
+      display: inline-block;
+      transition-duration: .35s;
+      -moz-transition-duration: .35s;
+      -webkit-transition-duration: .35s;
+      -o-transition-duration: .35s;
+      break-inside: avoid;
+      margin-bottom: 75px;
+    }
+
+    .complete:before {
+      font-size: 10px;
+      top: 5px;
+      right: 10px;
+      content: "✔";
+      position: absolute;
+      font-family: 'Overpass';
+    }
+
+    .wip:before {
+      font-size: 10px;
+      top: 5px;
+      right: 10px;
+      content: "↺";
+      position: absolute;
+      font-family: 'Overpass';
+    }
+
+    .abandoned:before {
+      font-size: 10px;
+      top: 5px;
+      right: 10px;
+      content: "✘";
+      position: absolute;
+      font-family: 'Overpass';
+    }
+
+    .mine .tags {
+      background: #0b0b0b;
+    }
+
+    .d i {
+      color: #999494;
+      display: block;
+    }
+
+    .d {
+      margin: 10px 0px;
+      display: block;
+      position: relative;
+    }
+
+    .tags i {
+      margin-right: 5px;
+    }
+
+    .tags i:before {
+      content: '#';
+    }
+
+    .c {
+      bottom: 5%;
+      left: 5%;
+      position: fixed;
+      color: #e00000;
+    }
+
+    span {
+      background: #171717;
+      margin: 0px 2px;
+      padding: 5px;
+      border: 1px solid #222222;
+      color: #fff;
+      width: calc(32% - 16px);
+      text-align: center;
+      display: inline-block;
+    }
+
+    .tags {
+      margin: 10px -15px -15px;
+      background: #0b0b0b;
+      padding: 5px 15px;
+      border-top: 1px solid #222222;
+    }
+
+    .mainlinks {
+      margin-top: .5em;
+      color: #ffffff;
+    }
+
+    nav a {
+      display: block;
+    }
+
+    #sidebar {
+      position: fixed;
+      width: 30%;
+    }
+
+    #columns {
+      width: 70%;
+      column-count: 4;
+      column-gap: 75px;
+      margin-left: 15%;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin right: 5%;
+    }
