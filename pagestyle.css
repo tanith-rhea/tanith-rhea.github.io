@@ -1,0 +1,28 @@
+@font-face {
+  font-family:'Overpass';
+  font-weight: normal;
+  font-style: normal;
+  src: url(https://github.com/RedHatOfficial/Overpass/blob/master/fonts/otf/Overpass-Regular.otf);
+}
+
+body {
+  font-family:'Overpass';
+  font-size:14px;
+  color:#ffffff;
+  background-color: #222222;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+h1 {
+  color:#e00000;
+  text-transform:uppercase;
+  margin-bottom:.25em;
+  display:block;
+}
