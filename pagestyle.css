@@ -1,10 +1,3 @@
-@font-face {
-  font-family:'Overpass';
-  font-weight: normal;
-  font-style: normal;
-  src: url(https://github.com/RedHatOfficial/Overpass/blob/master/fonts/otf/Overpass-Regular.otf);
-}
-
 body {
   font-family:'Overpass';
   font-size:14px;
