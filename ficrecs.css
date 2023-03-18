@@ -76,6 +76,10 @@
       transition: all 0.3s;
     }
 
+    .selected{
+        color: #999494;
+    }
+
     h1 {
       font-weight: bold;
       color: #e00000;
