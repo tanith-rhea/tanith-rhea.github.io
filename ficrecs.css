@@ -67,6 +67,7 @@
 
     a {
       color: #fff;
+      display:block;
       /*links*/
       text-decoration: none;
       -webkit-transition: all 0.3s;
