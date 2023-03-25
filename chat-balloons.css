@@ -46,3 +46,9 @@
   font-size: 60%;
   float: left;
 }
+
+.chat ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
