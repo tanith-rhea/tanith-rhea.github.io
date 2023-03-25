@@ -23,7 +23,7 @@
 
 .chat .rtime {
   color: #aaaaac;
-  font-size: .75em;
+  font-size: 60%;
   font-weight: lighter;
   font-stretch: ultra-condensed;
   float: left;
@@ -47,7 +47,7 @@
 
 .chat .stime {
   color: #aaaaac;
-  font-size: .75em;
+  font-size: 60%;
   font-weight: lighter;
   font-stretch: ultra-condensed;
   float: right;
