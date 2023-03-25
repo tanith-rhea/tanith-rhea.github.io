@@ -10,45 +10,49 @@
 }
 
 .chat .rtail {
-  color: #212121;
-  border: 2px solid #dedede;
-  background-color: #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px 0;
-}
-.chat img {
   float: left;
-  max-width: 60px;
-  width: 100%;
-  margin-right: 20px;
-  border-radius: 50%;
+  color: #212121;
+  margin: 0em 0em 0.5em 0.5em;
+  border-radius: .5em;
+  padding: 0.5em 1em;
+  background: #ddd;
+  max-width: 60%;
+  clear: both;
+  position: relative;
 }
 
-rtime {
+.chat .rtime {
   color: #aaaaac;
-  font-size: 60%;
-  float: right;
-
+  font-size: .75em;
+  font-weight: lighter;
+  font-stretch: ultra-condensed;
+  float: left;
+  position: relative;
+  clear: both;
+  margin: -.25em 0em 0.5em 0em;
+  padding: 0 1em 0.5em;
 }
 
 .chat .stail {
+  float: right;
   color: #212121;
-  border: 2px solid #dedede;
-  background-color: #F5CCD4;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-stime {
-  color: #aaaaac;
-  font-size: 60%;
-  float: left;
-}
-
-.chat ::after {
-  content: "";
+  margin: 0em 0.5em 0.5em 0em;
+  border-radius: .5em;
+  padding: 0.5em 1em;
+  background: #F5CCD4;
+  max-width: 60%;
   clear: both;
-  display: table;
+  position: relative;
+}
+
+.chat .stime {
+  color: #aaaaac;
+  font-size: .75em;
+  font-weight: lighter;
+  font-stretch: ultra-condensed;
+  float: right;
+  position: relative;
+  clear: both;
+  margin: -.25em 0em 0.5em 0em;
+  padding: 0 1em 0.5em;
 }
