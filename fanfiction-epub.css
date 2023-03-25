@@ -5,10 +5,11 @@ body {
 }
 
 blockquote {
-  padding: 0.5em;
-  color: #fff;
-  background-color: #aaaaac;
-  border-radius: 0.5em;
+  border: 2px solid #dedede;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 hr.solid {
