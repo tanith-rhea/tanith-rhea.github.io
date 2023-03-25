@@ -28,30 +28,21 @@
 .rtime {
   color: #aaaaac;
   font-size: 60%;
-  float: left;
+  float: right;
 
 }
 
 .chat .stail {
-  float: right;
   color: #212121;
-  margin: 0em 0.5em 0.5em 0em;
-  border-radius: .5em;
-  padding: 0.5em 1em;
-  background: #F5CCD4;
-  max-width: 60%;
-  clear: both;
-  position: relative;
+  border: 2px solid #dedede;
+  background-color: #F5CCD4;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .chat .stime {
   color: #aaaaac;
   font-size: 60%;
-  font-weight: lighter;
-  font-stretch: ultra-condensed;
-  float: right;
-  position: relative;
-  clear: both;
-  margin: -.25em 0em 0.5em 0em;
-  padding: 0 1em 0.5em;
+  float: left;
 }
