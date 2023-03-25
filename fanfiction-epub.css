@@ -1,0 +1,15 @@
+body {
+  font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 5px;
+}
+
+blockquote {
+  padding: 1em;
+  color: #ddd;
+  border-radius: 0.5em;
+}
+
+hr.solid {
+  border-top: 3px solid #F5CCD4;
+}
