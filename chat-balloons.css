@@ -25,7 +25,7 @@
   border-radius: 50%;
 }
 
-.rtime {
+rtime {
   color: #aaaaac;
   font-size: 60%;
   float: right;
@@ -41,7 +41,7 @@
   margin: 10px 0;
 }
 
-.chat .stime {
+stime {
   color: #aaaaac;
   font-size: 60%;
   float: left;
