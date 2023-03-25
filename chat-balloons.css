@@ -16,7 +16,7 @@
   border-radius: .5em;
   padding: 0.5em 1em;
   background: #ddd;
-  max-width: 60%;
+  width: 100%;
   clear: both;
   position: relative;
 }
@@ -40,7 +40,7 @@
   border-radius: .5em;
   padding: 0.5em 1em;
   background: #F5CCD4;
-  max-width: 60%;
+  width: 100%;
   clear: both;
   position: relative;
 }
