@@ -15,6 +15,7 @@
   margin: 0em 0em 0.5em 0.5em;
   border-radius: 14px;
   border-end-start-radius: 0em;
+  border: 2px solid #CBCBCB;
   padding: 0.5em 1em;
   background: #ddd;
   max-width: 60%;
@@ -40,6 +41,7 @@
   margin: 0em 0.5em 0.5em 0em;
   border-radius: 14px;
   border-end-end-radius: 0em;
+  border: 2px solid #DAB5BD;
   padding: 0.5em 1em;
   background: #F5CCD4;
   max-width: 60%;
