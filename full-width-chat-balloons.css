@@ -1,0 +1,53 @@
+body {
+  font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+}
+
+.sender {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  border-end-start-radius: 0px;
+  padding: 10px 10px 0px 10px;
+  margin: 10px 0;
+}
+
+.receiver {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  border-end-end-radius: 0px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ddd;
+}
+
+.sender::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.receiver::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sender img {
+  float: left;
+  max-width: 40px;
+  width: 100%;
+  margin: 0px 20px 10px 0px;
+  border-radius: 50%;
+}
+
+.sender-time {
+  float: right;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.receiver-time {
+  float: left;
+  color: #999;
+  margin-bottom: 10px;
+}
