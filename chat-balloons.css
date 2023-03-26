@@ -14,6 +14,7 @@
   color: #212121;
   margin: 0em 0em 0.5em 0.5em;
   border-radius: .5em;
+  border-end-end-radius: 0.3em;
   padding: 0.5em 1em;
   background: #ddd;
   max-width: 60%;
